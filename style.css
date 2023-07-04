@@ -1,0 +1,476 @@
+/* Navbar */
+nav {
+  background-color: #ffffff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #151515;
+}
+
+.first-row-design{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.first-row-design .left-icons .left-icons-img1{
+  width: 138.089px;
+height: 32.006px;
+}
+.first-row-design .left-icons .left-icons-img2{
+  width: 137.455px;
+  height: 25.173px;
+}
+.first-row-design .right-icons .right-icons-img1{
+  width: 31.619px;
+  height: 31.619px;
+}
+.first-row-design .right-icons .right-icons-img2{
+  width: 36.203px;
+  height: 31.585px;
+}
+.first-row-design .right-icons .right-icons-img3{
+  width: 36.889px;
+  height: 42.159px;
+}
+
+.navbar-icons-mobile{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-icons-mobile .left-icon {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.navbar-icons-mobile .left-icon h6{
+  color: #151515;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar-icons-mobile .right-icon {
+  display: flex;
+  margin-right: 20px;
+  margin-top: 20px;
+  
+}
+
+.navbar-icons-mobile .right-icon h6{
+  color: #151515;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+
+}
+ 
+.product-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  overflow: hidden;
+}
+
+.product-images img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transition: transform 0.5s ease;
+}
+
+.product-images-img1 {
+  transform-origin: right center;
+}
+
+.product-images-img2 {
+  transform-origin: center center;
+  margin-bottom: 150px;
+}
+
+.product-images-img3 {
+  transform-origin: left center;
+}
+
+.product-details {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+ .container {
+  position: relative;
+  height: 100vh; /* Adjust the height as needed */
+  overflow: hidden;
+}
+.background-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background-color: #F7B79D;
+  opacity: 0.7;
+}
+.gallery-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 20px; /* Add some bottom padding to create a gap from the background overlay */
+}
+
+.image-gallery-text {
+  /* flex-basis: 100%; */
+  text-align: center;
+  padding: 20px;
+}
+.image-gallery {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  margin: 0 auto; 
+  /* margin-bottom: 2530px; */
+}
+
+image-box {
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-box h3,
+.image-box h6 {
+  margin-top: auto;
+  margin-left: 80px;
+}
+
+.image-box:not(:last-child) {
+  margin-right: 20px;
+}
+
+/* .diamond-gallerys{
+  display:flex;
+} */
+
+.diamond-gallery  {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2px;
+  width: 750px;
+  height: 741px;
+}
+
+.diamond-gallery-part{
+  display:flex;
+  justify-content: space-around;
+}
+.diamond-gallery-part-text h2{
+  color: #151515;
+font-size: 40px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.diamond-gallery-part h6{
+  color: #929292;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.diamond-gallery-part-email{
+  color: #929292;
+font-size: 30px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.diamond-gallery-part-email button{
+  width: 353px;
+height: 70px;
+/* flex-shrink: 0; */
+color: #FFF;
+font-size: 28px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.advertiesement{
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+   justify-content:center;
+   align-items: center;   
+}
+.advertiesement img{
+  
+  width: 149.57px;
+  height: 34.665px;
+  /* flex-shrink: 0; */
+}
+.advertiesement h5{
+  color: #F7B79D;
+  font-size: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.advertiesement h6{
+  color: #929292;
+  font-size: 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500; 
+  line-height: normal;
+}
+
+.click-to-go{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #929292;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+}
+.footer-bazar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.footer-text h6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1286px;
+  height: 40px;
+  margin-left: 90px;
+  padding: 10px;
+  gap: 10px; 
+}
+.dropdown-icon{
+  display: none;
+}
+/* Example custom CSS styles */
+ #carouselWrapper .diamond-gallerys {
+  margin: 0;
+  padding: 0;
+}
+
+
+#carouselWrapper .diamond-gallerys-image {
+  position: relative;
+  flex: 0 0 150px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#carouselWrapper .diamond-gallerys-image img {
+  max-width: 100%;
+}
+
+#carouselWrapper .diamond-gallerys-image h2,
+#carouselWrapper .diamond-gallerys-image h6 {
+  margin: 0;
+  font-size: 14px;
+}
+
+
+
+/* CSS code for diamond gallery section */
+  .diamond-section {
+  margin: 20px;
+}
+
+.section-heading {
+  text-align: center;
+}
+
+.diamond-gallerys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.diamond-gallerys-image {
+  flex: 0 0 150px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+
+.diamond-gallerys-image img {
+  max-width: 100%;
+}
+
+.diamond-gallerys-image h2, .diamond-gallerys-image h6 {
+  margin: 0;
+  font-size: 14px;
+} 
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider img {
+  width: 20%;
+  height: auto;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  width: max-content;
+  transition: transform 0.5s ease;
+}
+
+.slider > div {
+  flex: 0 0 100%;
+}
+
+.slider img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-heading {
+  text-align: center;
+}
+.slider > div {
+  flex: 0 0 322px;
+  width: 322px;
+  height: 425px;
+}
+
+
+/* media query */
+@media only screen and (max-width: 767px) {
+  /* Styles for small screens */
+  .first-row-design .left-icons{
+    display: none;
+  }
+  .first-row-design .right-icons{
+    display: none;
+  }
+  nav ul {
+    flex-direction: column;
+    margin-left: -10px;
+    
+  }
+  
+  .navbar-icons-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: -5px;
+    margin-left: 10px;
+    /* justify-content: space-between; */
+  }
+  .navbar-icons-mobile .right-icon{
+    margin-top: -40px;
+  }
+  nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  nav ul {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  
+  nav ul::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 200px;
+    background-color: #151515;
+    margin-top: 15px; /* Adjust the margin as needed */
+  }
+  nav ul li .dropdown-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    margin-right: -70px;
+    margin-top: 5px;
+  }
+  .cross-icon {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    background: url("./assets/close_1828778.png") no-repeat center center;
+    background-size: contain;
+  }
+  nav ul li {
+    margin-bottom: 10px;
+    position: relative;
+  }
+}

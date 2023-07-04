@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jewelry Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="main.js"> -->
+  
+  <!-- <style>
+    .product-images {
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+    }
+  
+    .product-images-img1,
+    .product-images-img2,
+    .product-images-img3 {
+      flex: 0 0 auto;
+      transition: transform 0.3s ease-in-out;
+    }
+  </style> -->
+
+  
+
+  <!-- <script type="text/javascript">
+    // Get references to the images and the vitrine container
+    const img1 = document.querySelector('.product-images-img1');
+    const img2 = document.querySelector('.product-images-img2');
+    const img3 = document.querySelector('.product-images-img3');
+    const vitrine = document.getElementById('vitrine');
+  
+    // Initialize the shift counter
+    let shiftCounter = 0;
+  
+    // Function to shift the images to the left
+    function shiftLeft() {
+      shiftCounter--;
+      vitrine.style.transform = `translateX(${shiftCounter * -100}px)`;
+    }
+  
+    // Function to shift the images to the right
+    function shiftRight() {
+      shiftCounter++;
+      vitrine.style.transform = `translateX(${shiftCounter * -100}px)`;
+    }
+  
+    // Add click event listeners to the left and right sides of the vitrine
+    vitrine.addEventListener('click', function (event) {
+      const vitrineWidth = vitrine.offsetWidth;
+      const clickX = event.clientX - vitrine.getBoundingClientRect().left;
+  
+      if (clickX < vitrineWidth / 3) {
+        shiftLeft();
+      } else if (clickX > (2 * vitrineWidth) / 3) {
+        shiftRight();
+      }
+    });
+  </script>
+   -->
+
+  
+
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  
+
+  <nav>
+    <div class="first-row-design">
+        <div class="left-icons">
+            <img class="left-icons-img1" src="./assets/Group 1.svg" alt="">
+            <img class="left-icons-img2" src="./assets/Group 2.svg" alt="">
+          </div>
+    <ul>
+      <li><a href="#">Diamonds</a><img class="dropdown-icon" src="./assets/icons8-drop-down-25.png" alt=""><div class="cross-icon"></div></li>
+      <li><a href="#" style="font-weight: bold;">Accessories</a><img class="dropdown-icon" src="./assets/icons8-drop-down-25.png" alt=""></li>
+      <li><a href="#">Fine Jewelry</a><img class="dropdown-icon" src="./assets/icons8-drop-down-25.png" alt=""></li>
+      <li><a href="#">Watches</a><img class="dropdown-icon" src="./assets/icons8-drop-down-25.png" alt=""></li>
+      <!-- <li class="dropdown-icon"><img src="./assets/dropdown-icon.svg" alt=""></li> -->
+
+    </ul>
+    
+      <div class="right-icons">
+        <img class="right-icons-img1" src="./assets/Icon feather-search.svg" alt="">
+        <img class="right-icons-img2" src="./assets/Icon feather-heart.svg" alt="">
+        <img class="right-icons-img3" src="./assets/Icon awesome-user.svg" alt="">
+      </div>
+</div>
+    <div class="navbar-icons-mobile">
+      <div class="left-icon">
+        <img src="./assets/Screenshot from 2023-07-01 12-38-43.png" alt="">
+        <h6>inquiry</h6>
+      </div>
+      <div class="right-icon">
+        <img src="./assets/Icon awesome-user.svg" alt="">
+        <h6>Feedback</h6>
+      </div>
+    </div>
+  </nav>
+
+  
+  <!-- Main Content -->
+  <main>
+    <section>
+      <div class="product-container">
+        <div class="product-images" id="vitrine">
+          <img class="product-images-img1" style="height:403;width:403;" src="./assets/Delaney Tiered Hidden Halo Engagement Ring.png" alt="">
+          <img class="product-images-img2" style="height:536.559;width:644.954;transform: rotate(115deg);" src="./assets/Image 55 1.png" alt="">
+          <img class="product-images-img3" style="height: 712;width:419 ;" src="./assets/Image 53.png" alt="">
+        </div>
+        <div class="product-details">
+          <h2>Vintage & Antique</h2>
+          <h3>$4500</h3>
+          <h6>Take 20% off for a limited time <br> Use Code LOVE20 </h6>
+          <button>View Details</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="background-overlay"></div>
+        <div class="gallery-container">  
+          <div class="image-gallery-text">
+            <h2>Our collection</h2>
+            <h5>Discover our elegant and unique fine jewelry collections,<br>ranging from classic diamond studs to stylish pendants<br>and dazzling bracelets.</h5>   
+          </div>
+          <div class="image-gallery">
+            <div class="image-box">
+              <img style="width: 200;height:300px;" src="./assets/Image 2.png" alt="">
+              <h3>Wedding Rings</h3>
+              <h6>Every diamond in our collection</h6>
+            </div>
+            <div class="image-box">
+              <img style="width: 200;height:300px;" src="./assets/Image 3.png" alt="">
+              <h3>Engagement Rings</h3>
+              <h6>Every diamond in our collection</h6>
+            </div>
+            <div class="image-box">
+              <img style="width: 200;height:300px;" src="./assets/Image 4.png" alt="">
+              <h3>Fine Jewelry</h3>
+              <h6>Every diamond in our collection</h6>
+            </div>         
+            <div class="image-box">
+              <img style="width: 200;height:300px;" src="./assets/Image 5.png" alt="">
+              <h3>Latest Rings</h3>
+              <h6>Every diamond in our collection</h6>
+            </div>
+          </div>
+        </div>
+    </div>
+      </section>
+      
+      
+      
+     
+
+    <section>
+        <div class="section-heading">
+          <h1>Explore Loose Diamonds</h1>
+          <h6>Every diamond in our collection is selected for its<br>superior cut, symmetry, and shape</h6>
+        </div>
+        <!-- <div class="slider-container">
+        <div class="slider">
+            <div id="c1"> 
+             <img src="./assets/image 2.png" alt="">
+              <h2>Round</h2>
+              <h6>Every diamond in our collection</h6>
+            </div>  
+          <div id="c2">
+            <img src="./assets/oval 2.png" alt="">
+              <h2>Emerald</h2>
+              <h6>Every diamond in our collection</h6>
+          </div>
+          <div id="c3">
+            <img src="./assets/image 3.png" alt="">
+              <h2>Round</h2>
+              <h6>Every diamond in our collection</h6>
+          </div>
+          <div id="c4">
+            <img src="./assets/oval.png" alt="">
+              <h2>Oval</h2>
+              <h6>Every diamond in our collection</h6>
+          </div>
+          <div id="c5">
+            <img src="./assets/fghjk 1.png" alt="">
+              <h2>Heart</h2>
+              <h6>Every diamond in our collection</h6>
+          </div>
+          <div id="c6">
+            <img src="./assets/assher 2.png" alt="">
+              <h2>Asscher</h2>
+              <h6>Every diamond in our collection</h6>     
+          </div>
+          <div id="c7">
+            <img src="./assets/fghjk 2.png" alt="">
+              <h2>Heart</h2>
+              <h6>Every diamond in our collection</h6>
+          </div>
+
+         
+      </div>
+      </div> -->
+    </section>
+    <section>
+      <div class="diamond-gallery-part">
+        <div class="diamond-gallery-part-text">
+          <h2>Keep in Touch</h2>
+          <h6>
+            Our lab created diamonds are the <br>
+            eco-conscious choice, and exhibit <br>
+            the same sparkle as natural diamonds.
+          </h6>
+          <div class="diamond-gallery-part-email">
+            <h5>Enter your email id to subscribe</h5>
+            <button>Sign Up</button>
+          </div>
+        </div>
+        <div class="diamond-gallery">
+          <div class="row-one">
+            <img src="./assets/Image 6.png" alt="">
+            <img src="./assets/Image 8.png" alt="">
+          </div>
+          <div class="row-one">
+            <img src="./assets/Image 7.png" alt="">
+            <img src="./assets/Image 9.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <div class="advertiesement">
+          <img src="./assets/Group 1.svg" alt="">
+          <img src="./assets/Group 2.svg" alt="">
+          <h5>20+ Years of Trust</h5>
+          <h6>dimend SCAASI jeweler is a unique jewelry store located in <br>
+            Chicago with an emphasis on great style and exceptional quality</h6>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="click-to-go">
+            <h4>Education</h4>
+            <h4>About Us</h4>
+            <h4>Customer Care</h4>
+            <h4>Contact Us</h4>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-bazar">
+        <img src="./assets/Image 51.png" alt="" style="width: 152.404px; height: 50.141px;">
+        <img src="./assets/Image 49.png" alt="" style="width: 101.805px;; height: 57.135px;">
+        <img src="./assets/Image 52.png" alt="" style="width: 120.825px; height: 46.266px;">
+        <img src="./assets/Image 50.png" alt="" style="width: 126.317px; height: 64.555;">
+        <img src="./assets/Visa Logo.png" alt="" style="width: 81px; height: 81px;">
+        <img src="./assets/Mastercard Logo.png" alt="" style="width: 54px; height: 42px;">
+        <img src="./assets/Discover Logo.png" alt="" style="width: 135.042; height: 22.366px;">
+        <img src="./assets/Paypal Logo 1.png" alt="" style="width: 108; height: 61px;">
+        <img src="./assets/Pasted image.png" alt="" style="width: 68px; height: 68px;">
+      </div>
+      
+    <div class="footer-text">
+      <h6>dimendSCAASI and innerView@ are Registered Trademark of dimend SCAASI ltd. 2010-2020 dimend SCAASI Ltd
+        erms Of Use | Sitemap | Privacy Policy</h6>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('c3').onclick = function() {
+  const slider = document.querySelector('.slider');
+  const slideWidth = slider.clientWidth;
+  const currentPosition = slider.scrollLeft;
+  const newPosition = currentPosition + slideWidth;
+
+  slider.scrollTo({
+    left: newPosition,
+    behavior: 'smooth'
+  });
+};
+
+document.getElementById('c5').onclick = function() {
+  const slider = document.querySelector('.slider');
+  const slideWidth = slider.clientWidth;
+  const currentPosition = slider.scrollLeft;
+  const newPosition = currentPosition - slideWidth;
+
+  slider.scrollTo({
+    left: newPosition,
+    behavior: 'smooth'
+  });
+};
+
+  </script>
+
+  <!-- Scripts -->
+  <!-- <script src="main.js"></script> -->
+  
+</body>
+
+</html>
